@@ -28,7 +28,7 @@ def main():
         cv2.imshow('Video',im)
         if cv2.waitKey(1) & 0xFF == ord('q'):
            break
-    cv2.destroyAllWindows()
+        cv2.destroyAllWindows()
     finally:
         connection.close()
         server_socket.close()
